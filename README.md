@@ -26,7 +26,9 @@
   </p>
 </div>
 
-![Rozgaar Saathi product tour](docs/assets/rozgaar-saathi-tour.gif)
+![Rozgaar Saathi running product promise](docs/assets/running-text-banner.gif)
+
+![Rozgaar Saathi product walkthrough](docs/assets/rozgaar-saathi-walkthrough.gif)
 
 ## The Idea
 
@@ -77,6 +79,8 @@ Rozgaar Saathi opens directly into an **Operations Dashboard**. From there, an o
 ## How It Works
 
 Rozgaar Saathi is currently a polished frontend pilot with typed local data and deterministic product logic. It is intentionally lightweight for the Build for Good idea submission stage, but structured so a backend can be added without rewriting the product surface.
+
+![Rozgaar Saathi workflow runner](docs/assets/workflow-runner.gif)
 
 ```mermaid
 flowchart TD
@@ -170,7 +174,7 @@ src/
 
 docs/assets/
   *.png         README screenshots
-  *.gif         Animated product tour
+  *.gif         Animated product tour, running text banner, workflow runner
 ```
 
 ## Run Locally
