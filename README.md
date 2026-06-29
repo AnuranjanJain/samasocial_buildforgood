@@ -72,10 +72,6 @@ Rozgaar Saathi opens directly into an **Operations Dashboard**. From there, an o
 | --- | --- |
 | ![FAQ assistant](docs/assets/faq-assistant.png) | ![Mobile dashboard](docs/assets/mobile-dashboard.png) |
 
-| Stable Phone Dashboard | Compact Phone Dashboard |
-| --- | --- |
-| ![Stable mobile dashboard](docs/assets/mobile-dashboard.png) | ![Compact mobile dashboard](docs/assets/mobile-dashboard-compact.png) |
-
 ## How It Works
 
 Rozgaar Saathi is currently a polished frontend pilot with typed local data and deterministic product logic. It is intentionally lightweight for the Build for Good idea submission stage, but structured so a backend can be added without rewriting the product surface.
