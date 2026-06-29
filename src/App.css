@@ -1312,31 +1312,42 @@ h3 {
 
 @media (max-width: 760px) {
   .app-shell {
-    padding: 10px;
+    padding: 8px;
   }
 
   .topbar {
-    gap: 10px;
+    grid-template-columns: 1fr;
+    gap: 12px;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 18px;
   }
 
   .wordmark > div span {
     display: none;
   }
 
+  .wordmark strong {
+    font-size: 1.08rem;
+  }
+
   .logo-mark {
-    width: 44px;
-    height: 44px;
+    width: 42px;
+    height: 42px;
   }
 
   .topbar-controls {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
     gap: 6px;
+    justify-content: stretch;
   }
 
   .language-select {
+    justify-content: center;
     min-height: 42px;
+    min-width: 0;
     padding: 5px 8px;
+    border-radius: 14px;
   }
 
   .language-select span {
@@ -1344,7 +1355,9 @@ h3 {
   }
 
   .language-select select {
-    max-width: 82px;
+    width: 100%;
+    max-width: 118px;
+    text-align: center;
   }
 
   .segmented-control button,
@@ -1356,33 +1369,106 @@ h3 {
   .command-card,
   .card,
   .passport-card {
-    border-radius: 22px;
+    padding: 16px;
+    border-radius: 20px;
   }
 
   .dashboard-heading {
-    align-items: flex-start;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 68px;
+    align-items: start;
+    gap: 12px;
+    margin-bottom: 16px;
   }
 
   .dashboard-heading h1 {
-    font-size: clamp(2.2rem, 15vw, 3.9rem);
+    margin-bottom: 8px;
+    font-size: clamp(2rem, 12vw, 3rem);
+    line-height: 0.98;
+  }
+
+  .dashboard-heading p {
+    font-size: 0.94rem;
+    line-height: 1.42;
   }
 
   .hero-logo {
-    width: 92px;
-    height: 92px;
+    width: 68px;
+    height: 68px;
+    margin-top: 2px;
   }
 
-  .metric-strip,
+  .metric-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .dashboard-metric {
+    min-height: 116px;
+    padding: 12px;
+    border-radius: 16px;
+  }
+
+  .dashboard-metric strong {
+    font-size: clamp(1.45rem, 9vw, 2rem);
+  }
+
+  .dashboard-grid,
+  .content-grid,
+  .passport-layout,
+  .match-layout,
+  .support-layout {
+    gap: 10px;
+  }
+
   .metric-row,
   .job-facts,
   .impact-grid,
   .farm-summary,
   .passport-grid,
   .skills-split,
-  .language-grid,
   .action-grid {
     grid-template-columns: 1fr;
+  }
+
+  .language-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .language-grid span {
+    min-height: 42px;
+    padding: 10px;
+    font-size: 0.92rem;
+  }
+
+  .card-header {
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .card-header h3 {
+    font-size: 1.18rem;
+  }
+
+  .pipeline-row {
+    gap: 9px;
+    padding: 12px;
+  }
+
+  .demand-row {
+    min-height: 76px;
+    padding: 12px;
+  }
+
+  .demand-row > span {
+    width: 46px;
+    height: 46px;
+    border-radius: 14px;
+  }
+
+  .action-grid button {
+    min-height: 58px;
+    padding: 12px;
   }
 
   .chat-bubble {
