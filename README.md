@@ -30,6 +30,8 @@
 
 ![Rozgaar Saathi product walkthrough](docs/assets/rozgaar-saathi-walkthrough.gif)
 
+![Rozgaar Saathi product pages contact sheet](docs/assets/product-pages-contact-sheet.png)
+
 ## The Idea
 
 India's informal workers often have skills, trust, and willingness to work, but not the tools that formal workers take for granted: visible skill proof, reliable job discovery, income planning, and a way to compare opportunities before accepting work.
