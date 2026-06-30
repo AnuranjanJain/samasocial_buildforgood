@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rozgaar Saathi presentation deck for Build for Good by SamaSocial."
+    />
+    <title>Rozgaar Saathi Presentation</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="deck-shell">
+      <header class="deck-topbar">
+        <a class="brand" href="/" aria-label="Open Rozgaar Saathi app">
+          <img src="/favicon.svg" alt="" />
+          <span>
+            <strong>Rozgaar Saathi</strong>
+            <small>Build for Good presentation</small>
+          </span>
+        </a>
+
+        <nav class="deck-actions" aria-label="Presentation links">
+          <a href="https://rozgaar-saathi-sigma.vercel.app">Live app</a>
+          <a href="https://github.com/AnuranjanJain/samasocial_buildforgood">
+            GitHub
+          </a>
+          <a href="./rozgaar-saathi-presentation.pptx" download>Download PPTX</a>
+        </nav>
+      </header>
+
+      <section class="hero-strip" aria-label="Deck overview">
+        <p>ROZGAAR | Work, income and economic dignity</p>
+        <h1>Income dignity operations for informal workers</h1>
+        <span id="slideLabel">Slide 1 of 12</span>
+      </section>
+
+      <section class="viewer-grid">
+        <aside class="thumbnail-rail" aria-label="Slide thumbnails">
+          <div id="thumbs" class="thumbs"></div>
+        </aside>
+
+        <section class="stage" aria-live="polite">
+          <button class="nav-button prev" type="button" id="prevBtn" aria-label="Previous slide">
+            <span aria-hidden="true">&lsaquo;</span>
+          </button>
+
+          <figure class="slide-frame">
+            <img id="slideImage" src="./slides/slide-01.png" alt="Presentation slide 1" />
+          </figure>
+
+          <button class="nav-button next" type="button" id="nextBtn" aria-label="Next slide">
+            <span aria-hidden="true">&rsaquo;</span>
+          </button>
+        </section>
+      </section>
+
+      <footer class="deck-footer">
+        <div class="progress-track" aria-hidden="true">
+          <span id="progressBar"></span>
+        </div>
+        <div class="footer-copy">
+          <span>Use arrow keys to move through the story.</span>
+          <button type="button" id="fullscreenBtn">Fullscreen</button>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./viewer.js"></script>
+  </body>
+</html>

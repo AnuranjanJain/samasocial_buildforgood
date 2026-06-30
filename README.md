@@ -199,7 +199,7 @@ npm run preview
 | Demo URL | Add Vercel link after deployment |
 | Repo URL | https://github.com/AnuranjanJain/samasocial_buildforgood |
 | Video URL | Add after recording |
-| Presentation URL | Add after deck is published |
+| Presentation URL | https://rozgaar-saathi-sigma.vercel.app/presentation/ |
 
 ### Short Description
 
